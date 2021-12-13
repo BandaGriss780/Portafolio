@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: "Muli", sans-serif;
+  }
+  
+  header {
+    background-color: #21C08B;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header img {
+    width: 200px;
+    margin-left: 30px;
+  }
+  .login {
+    background: linear-gradient(#21C08B, #AB88FF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+  }
+  
+  .footer {
+    background-color: #AB88FF;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+  }
+  
+  .footer a {
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+
+.subtexto {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+  .wrap {
+    margin: 0px auto;
+    width: 486px;
+  }
+  
+  .text {
+    text-align: center;
+    margin-top: 56px;
+    color: #fff;
+    font-size: 200px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .animated {
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+  }
+  .bounce {
+    animation-name: bounce;
+  }
+  
